@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/BackgroundEraser_20230308_163319077.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/ae1d5cff5f.js" crossorigin="anonymous"></script>
+    <title>Sobre Mi</title>
+</head>
+<body>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <nav class="overlay-content">
+        <a href="index.html">Inicio</a>
+        <a href="sobre__mi.html">Sobre Mi</a>
+        <a href="formacion.html">Formacion</a>
+        <a href="experiencia.html">Proyectos</a>
+        <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+  
+    <i onclick="openNav()" class="fas fa-bars"></i>
+    <div class="container">
+        
+        
+        <!-- ----------------------------------------MENU FIN -->
+        <header class="encabezado">
+            
+            <div class="encabezado__info">
+                <h1 class="encabezado__h1">Cesar Alarcón</h1>
+                <p class="encabezado__p">Desarrollador Front-end JR</p>
+            </div>
+            
+
+        </header> <!-- header FIN-->
+
+        <section class="sobreMi">
+            <h2 class="sobreMi__h2">Informacion</h2>
+            <p class="sobreMi__Nombre">Nombre: <span class="sobreMi_span">César Alarcón</span></p>
+            <p class="sobreMi__Edad">Edad: <span class="sobreMi_span">26</span> </p>
+            <p class="sobreMi__Pais">Pais: <span class="sobreMi_span">México</span> </p>
+            <p class="sobreMi__Escolaridad">Escolaridad: <span class="sobreMi_span">Universitario</span> </p>
+            <p class="sobreMi__Carrera">Carrera: <span class="sobreMi_span">Ciencias de Datos</span> </p>
+            <div class="sobreMi__descripcion">
+                <p class="sobreMi__info">Mi nombre es césar, soy un estudiante de la carrera de ciencias de datos, actualmente estoy cursando el quinto semestre de mi carrera, cuento con conocimientos de algunas de las tecnologias del desarrollo web en la parte del Front-end como por ejemplo: Javascript, HTML ,CSS3, React.
+                Aqui, en mi portafolio podras observar algunos pequeños trabajos que he creado como desarrollador web principiante, sientete libre de hacer preguntas en caso de dudas.</p>
+                <div class="encabezado__img">
+                    <img src="img/BackgroundEraser_20230308_181844960.png" alt="mi_foto">
+                </div>
+            </div>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/c%C3%A9sar-salda%C3%B1a-alarc%C3%B3n/" target="_blank" ><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/CesarAlar" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </section>
+        
+        <section class="skills">
+            <h2 class="skills__h2">Skills</h2>
+            <div class="skill">
+                <i class="fab fa-js-square"></i>
+                <div class="skill__info">
+                    <p class="skill__nombre">Javascript</p>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <div class="skill__info">
+                    <p class="skill__nombre">CSS3</p>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <div class="skill__info">
+                    <p class="skill__nombre">HTML</p>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="fab fa-react"></i>
+                <div class="skill__info">
+                    <p class="skill__nombre">React</p>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="fab fa-sass"></i>
+                <div class="skill__info">
+                    <p class="skill__nombre">SCSS</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="hobbies">
+            <h2 class="hobbies__h2">Pasatiempos</h2>
+            <div class="hobby">
+                <i class="fas fa-file-code"></i>
+                <div class="hobby__info">
+                    <p class="hobby__nombre">Programar</p>
+                </div>
+            </div>
+            <div class="hobby">
+                <i class="fas fa-gamepad"></i>
+                <div class="hobby__info">
+                    <p class="hobby__nombre">Video Juegos</p>
+                </div>
+            </div>
+            <div class="hobby">
+                <i class="fas fa-headphones-alt"></i>
+                <div class="hobby__info">
+                    <p class="hobby__nombre">Escuchar Musica</p>
+                </div>
+            </div>
+            <div class="hobby">
+                <i class="fab fa-css3-alt"></i>
+                <div class="hobby__info">
+                    <p class="hobby__nombre">Maquetar Diseños Web</p>
+                </div>
+            </div>
+            <div class="hobby">
+                <i class="fas fa-dog"></i>
+                <div class="hobby__info">
+                    <p class="hobby__nombre">Pasear Con Mis Mascotas</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <video autoplay loop="loop" class="video_background" preload="auto" volume="0"/>
+     <source src="/img/espacio-5200.mp4" type="video/mp4" />
+    </video/>
+    <script src="js/sobremi.js"></script>
+</body>
+</html>

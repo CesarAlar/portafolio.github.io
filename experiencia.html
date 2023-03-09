@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/BackgroundEraser_20230308_163319077.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/ae1d5cff5f.js" crossorigin="anonymous"></script>
+    <title>Proyectos</title>
+</head>
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <nav class="overlay-content">
+        <a href="index.html">Inicio</a>
+        <a href="sobre__mi.html">Sobre Mi</a>
+        <a href="formacion.html">Formacion</a>
+        <a href="experiencia.html">Proyectos</a>
+        <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+  
+    <i onclick="openNav()" class="fas fa-bars"></i>
+    <div class="container">
+        <h1 class="proyecto__h1 text-flicker-in-glow">Proyectos</h1>
+        <div class="grid">
+            <div class="proyecto__card">
+                <img src="img/buscador de autos.png" alt="buscador-autos">
+                <div class="proyecto__info">
+                    <h2 class="proyecto__h2">Buscador de Autos</h2>
+                    <p class="proyecto__descripcion">Este proyecto puede filtrar autos dando diferentes caracteristicas con el uso de array methods.
+                    Los campos a elegir para la filtracion y busqueda de los autos son:</p>
+                    <li>Marca</li>
+                    <li>Año</li>
+                    <li>Precio Minimo</li>
+                    <li>Precio Maximo</li>
+                    <li>Numero de Puestas</li>
+                    <li>Transmisión</li>
+                    <li>Color</li>
+                    <a class="proyecto__btn" target="_blank" href="https://cesaralar.github.io/buscador.github.io/">Ver Proyecto</a>
+                </div>
+            </div>
+
+            <div class="proyecto__card">
+                <img src="img/control-presupuesto.jpg" alt="control-presupuesto">
+                <div class="proyecto__info">
+                    <h2 class="proyecto__h2">Control de Presupuesto</h2>
+                    <p class="proyecto__descripcion">La creacion de este proyecto fue echo con herramientas como:</p>
+                    <li>React</li>
+                    <li>javascript</li>
+                    <li>Taiwind</li>
+                    <p class="proyecto__descripcion">Facilita el registro de los gastos de una persona, contando con un presupuesto limite, el cual, el usuario podra insertar antes de poder hacer los registros. Cuenta con diferentes categorias para poder clasificar los gastos registrados.</p>
+                    <a class="proyecto__btn" href="https://stupendous-macaron-2dcc3e.netlify.app/" target="_blank">Ver Proyecto</a>
+                </div>
+            </div>
+
+            <div class="proyecto__card">
+                <img src="img/crm.jpg" alt="crm">
+                <div class="proyecto__info">
+                    <h2 class="proyecto__h2">CRM de Clientes</h2>
+                    <p class="proyecto__descripcion">Con el uso de Javascript y el uso de IndexedDB para el almacenamiento de los registros de los clientes, se creo este sencillo sistema.
+                    Este sistema puede realizar las siguientes acciones:</p>
+                    <li>Eliminar Registros</li>
+                    <li>Actualizar Registros</li>
+                    <li>Agregar Registros</li>
+                    <li>Mostrar Ragistros</li>
+                    <a class="proyecto__btn" target="_blank" href="https://cesaralar.github.io/CRM.github.io/">Ver Proyecto</a>
+                </div>
+            </div>
+
+            <div class="proyecto__card">
+                <img src="img/encriptador.jpg" alt="alura-encriptador">
+                <div class="proyecto__info">
+                    <h2 class="proyecto__h2">Encriptador de Texto</h2>
+                    <p class="proyecto__descripcion">Un challenge propuesto por alura, en el cual se puso en practica lo aprendido en los cursos impartidos en la plataforma, un proyecto sencillo pero con mucho aprendizaje.</p>
+                    <a class="proyecto__btn" target="_blank" href="https://cesaralar.github.io/EncriptadorDeTexto.github.io/">Ver Proyecto</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <video autoplay loop="loop" class="video_background" preload="auto" volume="0"/>
+     <source src="/img/espacio-5200.mp4" type="video/mp4" />
+    </video/>
+    <script src="js/sobremi.js"></script>
+</body>
+</html>
